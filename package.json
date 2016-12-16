@@ -1,0 +1,22 @@
+{
+  "name": "fetchutils",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -o lib/index.js",
+    "lint": "eslint src"
+  },
+  "author": "selbekk <kristofer.selbekk@bekk.no>",
+  "repository": "selbekk/fetchutils",
+  "license": "MIT",
+  "files": [
+      "lib"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
+    "babel-preset-latest": "^6.16.0",
+    "eslint": "^3.12.2",
+    "eslint-config-selbekk": "^1.0.1"
+  }
+}
